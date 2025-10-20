@@ -51,9 +51,11 @@ It allows the user to input *two single-digit numbers* and shows their *sum* on 
 
 ## Circuit Image
 
-Click the image to open the Tinkercad circuit:
+Here is a visual representation of the calculator circuit:
 
-[![Arduino Calculator](images/calculator.png)](https://www.tinkercad.com/things/dhzpriStUki-calculator)
+![Arduino Calculator](https://raw.githubusercontent.com/DvirC892/projectPhotos/main/%D7%A6%D7%99%D7%9C%D7%95%D7%9D%20%D7%9E%D7%A1%D7%9A%202025-10-20%20194213.png)
+
+Click the image to open it in full size.
 
 ---
 
