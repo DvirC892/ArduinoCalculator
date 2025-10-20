@@ -31,9 +31,9 @@ It allows the user to input *two single-digit numbers* and shows their *sum* on 
 |------------------|-------------|
 | Left 7-segment    | 7           |
 | Right 7-segment   | 6           |
-| 7-segment data pins (common cathode/anode) | 8,9,10,11 |
-| Keypad Rows       | 0,1,2       |
-| Keypad Columns    | 3,4,5       |
+| 7-segment data pins (common cathode/anode) | 8, 9, 10, 11 |
+| Keypad Rows       | 0, 1, 2     |
+| Keypad Columns    | 3, 4, 5     |
 
 ---
 
@@ -43,18 +43,17 @@ It allows the user to input *two single-digit numbers* and shows their *sum* on 
 2. The first number is displayed on the left 7-segment display.
 3. The program waits for the second button press.
 4. Both numbers are displayed on the two displays.
-5. The sum() function calculates the sum of the two digits.
+5. The sum() function calculates the sum and handles display logic.
 6. If the sum is less than 10, it shows only on the right display.  
    If the sum is ≥10, the tens and units are displayed separately.
 
 ---
 
-## Code
+## Circuit Image
 
-- Scankey() scans the keypad and returns the pressed key.
-- displayOneDigit() shows a single digit on the left 7-segment.
-- displayTwoDigits() shows two digits (tens and units) on the two displays.
-- sum() calculates the sum and handles display logic.
+Click the image to open the Tinkercad circuit:
+
+[![Arduino Calculator](images/calculator.png)](https://www.tinkercad.com/things/dhzpriStUki-calculator)
 
 ---
 
